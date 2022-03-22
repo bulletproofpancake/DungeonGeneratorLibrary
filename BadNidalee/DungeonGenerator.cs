@@ -3,17 +3,8 @@ using UnityEngine.Tilemaps;
 
 namespace DungeonGeneratorLibrary.BadNidalee
 {
-    /// <summary>
-    /// Procedural dungeon generation using recursion by BadNidalee.
-    /// </summary>
-    /// <remarks>
-    /// Github Repo: https://github.com/BadNidalee/ProcGenDungeon
-    /// <br/>
-    /// YT Link: https://youtu.be/QaryeJsjrI8
-    /// </remarks>
     public class DungeonGenerator : MonoBehaviour
     {
-
         [SerializeField]
         private Tile groundTile;
         [SerializeField]
